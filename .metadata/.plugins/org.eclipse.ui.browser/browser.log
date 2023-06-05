@@ -1,0 +1,4 @@
+
+6월 05, 2023 12:01:53.64 NEW SESSION
+6월 05, 2023 12:01:53.64 [9492:10632:0605/120153.638:ERROR:interface_endpoint_client.cc(697)] Message 1 rejected by interface blink.mojom.WidgetHost
+6월 05, 2023 12:02:17.35 [9492:10632:0605/120217.358:ERROR:page_load_metrics_update_dispatcher.cc(66)] Received null navigation_start.

@@ -1,0 +1,6 @@
+package kr.co.tjoeun.config;
+
+// 상속이 없음 : project 작업 시 ㅅ
+public class RootAppContext {
+
+}

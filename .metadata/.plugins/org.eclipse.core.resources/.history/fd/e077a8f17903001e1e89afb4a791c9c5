@@ -1,0 +1,14 @@
+		/WEB-INF/views/index.jsp 에서
+		/WEB-INF/views/ 이 부분을 prefix로 설정하고
+		.jsp 이 부분을 suffix 로 설정해서
+		return "index" 라고만 coding 해도 전체 경로를 인식하게 함
+			ㄴ servlet=context.xml 파일에서 설정함
+			
+		 servlet=context.xml 경로 접두사와 접미사를 설정한다.
+    <beans:property name="prefix" value="/WEB-INF/views/"/>
+     <beans:property name="suffix" value=".jsp"/>
+
+ 정적 파일 경로 지정하기
+ ㄴ HTML 에서 사용하는 이미지, 사운드, js, CSS 등
+ /WEBContent/resources 에서 정적 파일들을 저장함
+  ㄴ servlet=context.xml 파일에ㅓ 설정함

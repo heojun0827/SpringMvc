@@ -1,0 +1,7 @@
+20230602
+
+	MVC : Model-View-Controller
+	
+	Model : application business layer 
+	Controller : application 의 흐름을 관리하는 layer
+	View : application presentation layer

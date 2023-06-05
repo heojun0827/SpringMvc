@@ -1,0 +1,18 @@
+
+
+pom.xml
+
+라이브러리 설정하기
+
+servlet-api
+
+jsp-api
+
+jst1
+
+springWebMVC
+
+
+
+xml 파일로 setting 하기
+WebContent > resources > servlet-context.xml
