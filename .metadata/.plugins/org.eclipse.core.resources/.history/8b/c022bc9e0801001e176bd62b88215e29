@@ -1,8 +1,0 @@
-package kr.co.tjoeun.model;
-
-public class Test2Service {
-	public int minus(HttpServlet) {
-		int result = num1 - num2;
-		return result;
-	}
-}

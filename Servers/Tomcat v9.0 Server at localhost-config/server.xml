@@ -160,7 +160,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="FormCustomTag3" path="/FormCustomTag3" reloadable="true" source="org.eclipse.jst.jee.server:FormCustomTag3"/><Context docBase="FormCustomTag" path="/FormCustomTag" reloadable="true" source="org.eclipse.jst.jee.server:FormCustomTag"/><Context docBase="getObjectParameter" path="/getObjectParameter" reloadable="true" source="org.eclipse.jst.jee.server:getObjectParameter"/><Context docBase="SpringMVC01" path="/SpringMVC01" reloadable="true" source="org.eclipse.jst.jee.server:SpringMVC01"/></Host>
+      <Context docBase="RequestScopeBeanXMl" path="/RequestScopeBeanXMl" reloadable="true" source="org.eclipse.jst.jee.server:RequestScopeBeanXMl"/><Context docBase="FormCustomTag3" path="/FormCustomTag3" reloadable="true" source="org.eclipse.jst.jee.server:FormCustomTag3"/><Context docBase="RedirectForward" path="/RedirectForward" reloadable="true" source="org.eclipse.jst.jee.server:RedirectForward"/><Context docBase="RequestScope" path="/RequestScope" reloadable="true" source="org.eclipse.jst.jee.server:RequestScope"/></Host>
     </Engine>
   </Service>
 </Server>

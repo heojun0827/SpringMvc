@@ -1,9 +1,0 @@
-20230602
-
-	MVC : Model-View-Controller
-	
-	Model: application business layer (DB관련 작업) - 프로그램적인 요소
-	Controller: application 의 흐름을 관리하는 layer
-	View: application presentation layer - 화면
-	
-	
