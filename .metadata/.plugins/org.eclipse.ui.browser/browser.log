@@ -2,3 +2,9 @@
 6월 05, 2023 12:01:53.64 NEW SESSION
 6월 05, 2023 12:01:53.64 [9492:10632:0605/120153.638:ERROR:interface_endpoint_client.cc(697)] Message 1 rejected by interface blink.mojom.WidgetHost
 6월 05, 2023 12:02:17.35 [9492:10632:0605/120217.358:ERROR:page_load_metrics_update_dispatcher.cc(66)] Received null navigation_start.
+
+6월 12, 2023 17:05:02.78 NEW SESSION
+6월 12, 2023 17:05:02.78 [6976:9512:0612/170502.753:ERROR:CONSOLE(1)] "Request CacheStorage.requestCacheNames failed. {"code":-32602,"message":"Storage key corresponds to invalid origin"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+6월 12, 2023 17:05:02.78 [6976:9512:0612/170502.753:ERROR:CONSOLE(1)] "Request CacheStorage.requestCacheNames failed. {"code":-32602,"message":"Storage key corresponds to invalid origin"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+6월 12, 2023 17:36:52.38 [6976:9512:0612/173652.385:ERROR:interface_endpoint_client.cc(697)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 12, 2023 17:37:42.53 [6976:9512:0612/173742.537:ERROR:interface_endpoint_client.cc(697)] Message 0 rejected by interface blink.mojom.WidgetHost

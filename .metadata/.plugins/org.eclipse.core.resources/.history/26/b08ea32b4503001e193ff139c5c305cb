@@ -1,6 +1,0 @@
-package kr.co.tjoeun.config;
-
-// 상속이 없음 : pro
-public class RootAppContext {
-
-}
