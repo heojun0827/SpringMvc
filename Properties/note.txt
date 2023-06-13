@@ -1,0 +1,14 @@
+
+Properties
+	application 을 개발할 때 프로그램 실행 중 변하면 안되는 값들을
+	properties 파일에 작성하고 관리함
+
+	
+properties editor 설치하기
+
+@PropertySource : 사용할 properties 파일 하나 지정
+@PropertySources : 사용할 properties 파일 여러개 지정
+											ㄴ 배열 형태로 지정함
+
+@PropertySource("properties파일경로")
+@PropertySources
