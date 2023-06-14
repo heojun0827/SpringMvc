@@ -8,3 +8,8 @@
 6월 12, 2023 17:05:02.78 [6976:9512:0612/170502.753:ERROR:CONSOLE(1)] "Request CacheStorage.requestCacheNames failed. {"code":-32602,"message":"Storage key corresponds to invalid origin"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
 6월 12, 2023 17:36:52.38 [6976:9512:0612/173652.385:ERROR:interface_endpoint_client.cc(697)] Message 0 rejected by interface blink.mojom.WidgetHost
 6월 12, 2023 17:37:42.53 [6976:9512:0612/173742.537:ERROR:interface_endpoint_client.cc(697)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+6월 14, 2023 11:13:53.18 NEW SESSION
+6월 14, 2023 11:13:53.18 [2840:8528:0614/111353.174:ERROR:interface_endpoint_client.cc(697)] Message 1 rejected by interface blink.mojom.WidgetHost
+6월 14, 2023 13:27:09.04 [2840:8528:0614/132709.049:ERROR:device_event_log_impl.cc(222)] [13:27:09.047] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+6월 14, 2023 15:13:53.82 [2840:8528:0614/151353.826:ERROR:interface_endpoint_client.cc(697)] Message 0 rejected by interface blink.mojom.WidgetHost
