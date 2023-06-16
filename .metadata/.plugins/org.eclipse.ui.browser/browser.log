@@ -13,3 +13,6 @@
 6월 14, 2023 11:13:53.18 [2840:8528:0614/111353.174:ERROR:interface_endpoint_client.cc(697)] Message 1 rejected by interface blink.mojom.WidgetHost
 6월 14, 2023 13:27:09.04 [2840:8528:0614/132709.049:ERROR:device_event_log_impl.cc(222)] [13:27:09.047] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
 6월 14, 2023 15:13:53.82 [2840:8528:0614/151353.826:ERROR:interface_endpoint_client.cc(697)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+6월 16, 2023 13:07:53.46 NEW SESSION
+6월 16, 2023 13:07:53.46 [10800:3372:0616/130753.425:ERROR:interface_endpoint_client.cc(697)] Message 0 rejected by interface blink.mojom.WidgetHost
