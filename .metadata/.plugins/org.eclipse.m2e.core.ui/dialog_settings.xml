@@ -2,6 +2,12 @@
 <section name="Workbench">
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="boardproject2Xml"/>
+			<item value="boardproject2"/>
+			<item value="boardproject"/>
+			<item value="ExceptionHandling"/>
+			<item value="InterceptorXml"/>
+			<item value="Interceptor"/>
 			<item value="RestfulAPI"/>
 			<item value="MyBatis"/>
 			<item value="Validator"/>
@@ -11,16 +17,16 @@
 			<item value="validate"/>
 			<item value="messageXml"/>
 			<item value="message"/>
-			<item value="Properties"/>
-			<item value="Cookie"/>
-			<item value="ApplicationScopeXml"/>
-			<item value="ApplicationScopeJava"/>
-			<item value="ApplicationScope"/>
-			<item value="SessionScopeBeanXml"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="boardproject2Xml"/>
+			<item value="boardproject2"/>
+			<item value="boardproject"/>
+			<item value="ExceptionHandling"/>
+			<item value="InterceptorXml"/>
+			<item value="Interceptor"/>
 			<item value="RestfulAPI"/>
 			<item value="MyBatis"/>
 			<item value="Validator"/>
@@ -30,12 +36,6 @@
 			<item value="validate"/>
 			<item value="messageXml"/>
 			<item value="message"/>
-			<item value="Properties"/>
-			<item value="Cookie"/>
-			<item value="ApplicationScopeXml"/>
-			<item value="ApplicationScopeJava"/>
-			<item value="ApplicationScope"/>
-			<item value="SessionScopeBeanXml"/>
 		</list>
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>
