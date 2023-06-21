@@ -28,3 +28,14 @@ Bean 정의하기
 	
 		  Controller ->(호출)	Service	->(호출)	Repository
 		  Repository ->(리턴)	 Service ->(리턴)	 Controller
+		  
+		user/join.jsp
+		onkeypress="resetUserIdExist() 에 의해서" 
+		아이디를 입력하는 input 창에서 키를 눌렀을 때 호출되는 함수
+		id 가 userIdExist 인 element(tag) 의 value 를 false 로 설정함
+		<form:hidden path="userIdExist" />
+		<input id="userIdExist" name="userIdExist" type="hidden" value="false"/>
+		
+		function resetUserIdExist(){
+			// id 가 userIdExist 인 element(tag) 의 value 를 false 로
+		}	// resetUserIdExist

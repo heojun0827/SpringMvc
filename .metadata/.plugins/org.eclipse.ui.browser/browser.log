@@ -24,3 +24,7 @@
 6월 20, 2023 10:00:07.78 [4508:5736:0620/100007.779:ERROR:interface_endpoint_client.cc(697)] Message 0 rejected by interface blink.mojom.WidgetHost
 6월 20, 2023 13:20:35.89 [4508:5736:0620/132035.890:ERROR:interface_endpoint_client.cc(697)] Message 1 rejected by interface blink.mojom.WidgetHost
 6월 20, 2023 14:22:10.07 [4508:5736:0620/142210.075:ERROR:interface_endpoint_client.cc(697)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+6월 21, 2023 16:06:02.38 NEW SESSION
+6월 21, 2023 16:06:02.38 [8700:5668:0621/160602.384:ERROR:interface_endpoint_client.cc(697)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 21, 2023 17:14:56.03 [8700:5668:0621/171456.038:ERROR:interface_endpoint_client.cc(697)] Message 0 rejected by interface blink.mojom.WidgetHost

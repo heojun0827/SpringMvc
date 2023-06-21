@@ -21,7 +21,6 @@
 <fullyQualifiedTypeName name="javax.validation.constraints.NotBlank"/>
 <fullyQualifiedTypeName name="javax.validation.constraints.Email"/>
 <fullyQualifiedTypeName name="javax.validation.Validator"/>
-<fullyQualifiedTypeName name="org.springframework.validation.Validator"/>
 <fullyQualifiedTypeName name="kr.co.tjoeun.beans.TestBean1"/>
 <fullyQualifiedTypeName name="org.springframework.validation.ValidationUtils"/>
 <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
@@ -34,4 +33,10 @@
 <fullyQualifiedTypeName name="kr.co.tjoeun.mapper.TopMenuMapper"/>
 <fullyQualifiedTypeName name="kr.co.tjoeun.interceptor.TopMenuInterceptor"/>
 <fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.springframework.validation.Validator"/>
+<fullyQualifiedTypeName name="kr.co.tjoeun.bean.UserBean"/>
+<fullyQualifiedTypeName name="org.apache.tomcat.jni.Error"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.WebDataBinder"/>
+<fullyQualifiedTypeName name="kr.co.tjoeun.mapper.UserMapper"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Lazy"/>
 </qualifiedTypeNameHistroy>
