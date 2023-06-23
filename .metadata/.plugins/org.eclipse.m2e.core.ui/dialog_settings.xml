@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="boardproject6"/>
+			<item value="boardproject6Xml"/>
 			<item value="boardproject2Xml"/>
 			<item value="boardproject2"/>
 			<item value="boardproject"/>
@@ -15,12 +17,12 @@
 			<item value="JSR_303"/>
 			<item value="validate2"/>
 			<item value="validate"/>
-			<item value="messageXml"/>
-			<item value="message"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="boardproject6"/>
+			<item value="boardproject6Xml"/>
 			<item value="boardproject2Xml"/>
 			<item value="boardproject2"/>
 			<item value="boardproject"/>
@@ -34,8 +36,6 @@
 			<item value="JSR_303"/>
 			<item value="validate2"/>
 			<item value="validate"/>
-			<item value="messageXml"/>
-			<item value="message"/>
 		</list>
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>
