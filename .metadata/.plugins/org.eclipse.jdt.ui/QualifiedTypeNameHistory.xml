@@ -29,13 +29,11 @@
 <fullyQualifiedTypeName name="org.mybatis.spring.SqlSessionFactoryBean"/>
 <fullyQualifiedTypeName name="kr.co.tjoeun.mapper.TopMenuMapper"/>
 <fullyQualifiedTypeName name="kr.co.tjoeun.interceptor.TopMenuInterceptor"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.springframework.validation.Validator"/>
 <fullyQualifiedTypeName name="kr.co.tjoeun.bean.UserBean"/>
 <fullyQualifiedTypeName name="org.apache.tomcat.jni.Error"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.WebDataBinder"/>
 <fullyQualifiedTypeName name="kr.co.tjoeun.mapper.UserMapper"/>
-<fullyQualifiedTypeName name="org.springframework.context.annotation.Lazy"/>
 <fullyQualifiedTypeName name="org.apache.ibatis.annotations.Update"/>
 <fullyQualifiedTypeName name="javax.validation.constraints.NotBlank"/>
 <fullyQualifiedTypeName name="org.springframework.validation.BindingResult"/>
@@ -43,7 +41,11 @@
 <fullyQualifiedTypeName name="javax.servlet.MultipartConfigElement"/>
 <fullyQualifiedTypeName name="javax.servlet.ServletRegistration.Dynamic"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
-<fullyQualifiedTypeName name="kr.co.tjoeun.bean.ContentBean"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
 <fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="kr.co.tjoeun.bean.ContentBean"/>
+<fullyQualifiedTypeName name="kr.co.tjoeun.interceptor.CheckWriterInterceptor"/>
+<fullyQualifiedTypeName name="kr.co.tjoeun.service.BoardService"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Lazy"/>
 </qualifiedTypeNameHistroy>

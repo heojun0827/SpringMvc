@@ -25,7 +25,7 @@ public class CheckLoginInterceptor implements HandlerInterceptor {
 		// 로그아웃한 상태라면
 		if (loginUserBean.isUserLogin() == false) {
 			// ContextPath 를 얻어옴
-			String contextPath = request.getContentType();
+			String contextPath = request.getContextPath();
 			response.sendRedirect(contextPath + "/user/not_login");
 			return false;
 		}

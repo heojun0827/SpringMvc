@@ -11,5 +11,5 @@
 	System.out.println(request.getServletContext().getRealPath("/"));
 	
 	// option.properties 파일
-	path.upload=C:/workspace/springmvc/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/boardproject8Xml/resources/upload
+	path.upload=D:/gjwns/workspace/springmvc/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/boardproject8Xml/resources/upload
 	     
