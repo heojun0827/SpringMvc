@@ -2,9 +2,11 @@ package kr.co.tjoeun.mapper;
 
 import java.util.ArrayList;
 
+import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.SelectKey;
+import org.apache.ibatis.annotations.Update;
 
 import kr.co.tjoeun.bean.ContentBean;
 
@@ -39,13 +41,25 @@ public interface BoardMapper {
 	  // 작성자(이름)-user_name(content_writer_name),
 	  // 작성날짜-content_date, 제목-content_subject, 
 	  // 내용-content_text, 첨부이미지-content_file
-	  @Select(" select u.user_name content_writer_name, " + 
+	  @Select("select u.user_name content_writer_name, " + 
 	  		"TO_CHAR(content_date, 'YYYY-MM-DD') content_date, " + 
 	  		"c.content_subject, c.content_text, c.content_file, c.content_writer_idx " + 
 	  		"from content_table c, user_table u " + 
 	  		"where c.content_writer_idx = u.user_idx " + 
 	  		"AND c.content_idx = ${content_idx}")
 	  ContentBean getContentInfo(int content_idx);
+	  
+	  // 수정 페이지에서 게시글 수정하기
+	  @Update("update content_table "+ 
+			  "set content_subject = #{content_subject}, content_text=#{content_text}, content_file=#{content_file, jdbcType=VARCHAR} " + 
+			  "where content_idx=#{content_idx}")
+	  void modifyContentInfo(ContentBean modifyContentBean);
+	  
+	  
+	  // 게시글 삭제하기
+	  @Delete("delete from content_table " + 
+	  		"where content_idx = #{content_idx}")
+	  void deleteContentInfo(int content_idx);
 	  
 	}
 

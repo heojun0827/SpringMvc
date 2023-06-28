@@ -129,8 +129,13 @@ public class ServletAppContext implements WebMvcConfigurer{
 	public void addInterceptors(InterceptorRegistry registry) {
 		WebMvcConfigurer.super.addInterceptors(registry);
 		
+	    // java 설정 방식에서는, TopMenuInterceptor 에서
+	    // TopMenuService 와 UserBean 객체가 자동으로 주입되지 않으므로
+	    // ServletAppContext 에서 TopMenuService 와 UserBean 객체를 주입 받아서
+	    // ServletAppContext 에서 TopMenuInterceptor 객체를 생성할 때
+	    //  <-- TopMenuInterceptor 의 생성자의 argument 로  
+	    //  topMenuService 와 loginUserBean 의 객체를 직접 넣어주어야 한다는 의미
 		TopMenuInterceptor topMenuInterceptor = new TopMenuInterceptor(topMenuService, loginUserBean);
-		
 		InterceptorRegistration reg1 = registry.addInterceptor(topMenuInterceptor);
 		reg1.addPathPatterns("/**");
 

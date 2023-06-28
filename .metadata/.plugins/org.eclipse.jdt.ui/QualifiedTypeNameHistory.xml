@@ -48,4 +48,6 @@
 <fullyQualifiedTypeName name="kr.co.tjoeun.interceptor.CheckWriterInterceptor"/>
 <fullyQualifiedTypeName name="kr.co.tjoeun.service.BoardService"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.Lazy"/>
+<fullyQualifiedTypeName name="org.apache.ibatis.session.RowBounds"/>
+<fullyQualifiedTypeName name="kr.co.tjoeun.bean.PageBean"/>
 </qualifiedTypeNameHistroy>
